@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark-Mode-Toggle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id="heading">Dark Theme OFF 🔴</h1>
+        <button class="dark-mode-btn" onclick="Dark()">Night Mode</button>
+        <button class="light-mode-btn" onclick="DarkOff()">Night Mode Off</button>
+    </div>
+
+    <script>
+
+        const body = document.querySelector('body')
+
+        function Dark() {
+            body.style.backgroundColor = 'black'
+            document.getElementById('heading').style.color = 'white'; 
+            document.getElementById('heading').innerHTML = "Dark Theme ON ✅"
+        }
+
+        function DarkOff() {
+            body.style.backgroundColor = 'white'
+            document.getElementById('heading').style.color = 'black';
+            document.getElementById('heading').innerHTML = "Dark Theme OFF 🔴"
+        }
+    </script>
+</body>
+
+</html>
