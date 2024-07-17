@@ -9,4 +9,4 @@ A simple web page with a dark mode toggle feature using HTML, CSS, and JavaScrip
 
 ## Demo
 
-You can see a live demo of the project [(Here)](https://snehal-theme-toggle.vercel.app/).
+You can see a live demo of the project [(Here)](https://snehal-js-calculator.vercel.app/).
